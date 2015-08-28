@@ -14,6 +14,12 @@
 		0C7B8A291B8C977F001287B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7B8A281B8C977F001287B3 /* Images.xcassets */; };
 		0C7B8A2C1B8C977F001287B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7B8A2A1B8C977F001287B3 /* LaunchScreen.xib */; };
 		0C7B8A381B8C977F001287B3 /* MySecondApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8A371B8C977F001287B3 /* MySecondApplicationTests.swift */; };
+		0C7B8A441B8E071B001287B3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8A431B8E071B001287B3 /* TableViewController.swift */; };
+		0C7B8A461B8E0D68001287B3 /* NavigationViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8A451B8E0D68001287B3 /* NavigationViewController1.swift */; };
+		0C7B8A481B8E0D82001287B3 /* NavigationViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8A471B8E0D82001287B3 /* NavigationViewController2.swift */; };
+		0C7B8A4A1B8E0D8E001287B3 /* NavigationViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8A491B8E0D8E001287B3 /* NavigationViewController3.swift */; };
+		0CA8CA6B1B8EA7C30060750D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8CA6A1B8EA7C30060750D /* Model.swift */; };
+		0CA8CA711B8EAFC60060750D /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8CA701B8EAFC60060750D /* NumberButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		0C7B8A311B8C977F001287B3 /* MySecondApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySecondApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7B8A361B8C977F001287B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7B8A371B8C977F001287B3 /* MySecondApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondApplicationTests.swift; sourceTree = "<group>"; };
+		0C7B8A431B8E071B001287B3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0C7B8A451B8E0D68001287B3 /* NavigationViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController1.swift; sourceTree = "<group>"; };
+		0C7B8A471B8E0D82001287B3 /* NavigationViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController2.swift; sourceTree = "<group>"; };
+		0C7B8A491B8E0D8E001287B3 /* NavigationViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController3.swift; sourceTree = "<group>"; };
+		0CA8CA6A1B8EA7C30060750D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0CA8CA701B8EAFC60060750D /* NumberButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,12 @@
 				0C7B8A281B8C977F001287B3 /* Images.xcassets */,
 				0C7B8A2A1B8C977F001287B3 /* LaunchScreen.xib */,
 				0C7B8A1D1B8C977F001287B3 /* Supporting Files */,
+				0C7B8A431B8E071B001287B3 /* TableViewController.swift */,
+				0C7B8A451B8E0D68001287B3 /* NavigationViewController1.swift */,
+				0C7B8A471B8E0D82001287B3 /* NavigationViewController2.swift */,
+				0C7B8A491B8E0D8E001287B3 /* NavigationViewController3.swift */,
+				0CA8CA6A1B8EA7C30060750D /* Model.swift */,
+				0CA8CA701B8EAFC60060750D /* NumberButton.swift */,
 			);
 			path = MySecondApplication;
 			sourceTree = "<group>";
@@ -215,9 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA8CA6B1B8EA7C30060750D /* Model.swift in Sources */,
+				0C7B8A461B8E0D68001287B3 /* NavigationViewController1.swift in Sources */,
 				0C7B8A241B8C977F001287B3 /* SecondViewController.swift in Sources */,
 				0C7B8A201B8C977F001287B3 /* AppDelegate.swift in Sources */,
+				0C7B8A4A1B8E0D8E001287B3 /* NavigationViewController3.swift in Sources */,
 				0C7B8A221B8C977F001287B3 /* FirstViewController.swift in Sources */,
+				0CA8CA711B8EAFC60060750D /* NumberButton.swift in Sources */,
+				0C7B8A441B8E071B001287B3 /* TableViewController.swift in Sources */,
+				0C7B8A481B8E0D82001287B3 /* NavigationViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +437,7 @@
 				0C7B8A3D1B8C977F001287B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7B8A3E1B8C977F001287B3 /* Build configuration list for PBXNativeTarget "MySecondApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +446,7 @@
 				0C7B8A401B8C977F001287B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
